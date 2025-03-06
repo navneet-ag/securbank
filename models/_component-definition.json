@@ -35,9 +35,6 @@
           "...": "../blocks/*/_*.json#/definitions"
         }
       ]
-    },
-    {
-      "...": "../blocks/form/_form.json#/forms"
     }
   ]
 }

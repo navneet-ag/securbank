@@ -14,6 +14,12 @@
           }
         }
       }
+    },
+    {
+      "...": "./models/form-components/_*.json#/definitions"
+    },
+    {
+      "...": "./components/*/_*.json#/definitions"
     }
   ],
   "models": [
@@ -175,20 +181,6 @@
         "text-input",
         "tnc",
         "wizard"
-      ]
-    }
-  ],
-  "forms": [
-    {
-      "title": "Adaptive Form Components",
-      "id": "form-general",
-      "components": [
-        {
-          "...": "./models/form-components/_*.json#/definitions"
-        },
-        {
-          "...": "./components/*/_*.json#/definitions"
-        }
       ]
     }
   ]
